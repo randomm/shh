@@ -1,0 +1,8 @@
+{
+  "name": "Shh!",
+  "version": "0.1",
+  "description": "Remove all cookies related to hs.fi",
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
