@@ -9,10 +9,14 @@
     "128" : "images/128.png"
   },
   "permissions": [
-    "cookies",
-    "*://*.hs.fi"
+    "cookies"
   ],  
+  "homepage_url": "https://github.com/randomm/shh",
   "browser_action": {
     "default_icon": "images/icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   }
 }
